@@ -48,6 +48,7 @@ body.dark{
 }
 
 
+
 /*Dark Theme*/
 
 .switch{
@@ -100,6 +101,14 @@ body.dark{
 
 
 /*Class*/
+
+
+
+
+
+
+
+
 
 /*NAV BAR*/
 .navbar{
@@ -243,7 +252,7 @@ body.dark{
 
 }
 /*      Home       */
-
+/* 
 .home-container{
   width: 100%;
   display: flex;
@@ -364,6 +373,7 @@ body.dark{
 }
 
 /*Figures Home*/
+/*
 .figure-1{
   width: 50%; 
   height: 16rem; 
@@ -429,9 +439,7 @@ body.dark{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 1rem; */
   position: relative;
-  /* bottom: 0; */
   transition: 1s;
   transition-timing-function: cubic-bezier(0.25, 0.1, 0.68, 0.35);
   margin-top: 2rem;
@@ -456,11 +464,9 @@ body.dark{
 
 .image{
   max-width: 15rem;
-  /* max-height: 35rem; */
   border: 3px solid rgb(85, 85, 85);
   background: #428bca;
   transform: skew(349deg,357deg);
-  /* margin-left: 3rem; */
   border-radius: 1rem;
   position: relative;
   top: 0;
@@ -487,19 +493,5 @@ body.dark{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ */
 
