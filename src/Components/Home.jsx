@@ -17,10 +17,20 @@ const Home = () => {
             </p>
           </div>
           <div className='main-social'>
-            <a href="https://www.linkedin.com/in/martin-santiago-38b201244/"> <i className="fa-brands fa-linkedin blue"></i> </a>
-            <a href="https://github.com/marcris124"><i className="fa-brands fa-square-github white"></i></a>
+  <ul>
+        <li>
+          
+            <a  href="https://www.linkedin.com/in/martin-santiago-38b201244/" className='icon '> <i className="fa-brands fa-linkedin blue"></i> </a>
+            <a href="https://www.linkedin.com/in/martin-santiago-38b201244/" className='titulo'>Linkedin</a>
 
+        </li>
 
+        <li>
+            <a href="https://github.com/marcris124" className='icon' style={{color:"black"}}> <i className="fa-brands fa-square-github white"></i></a>
+            <a href="https://github.com/marcris124" className='titulo'>GitHub</a>
+
+        </li>
+      </ul>
           </div>
 
         </div>
@@ -31,7 +41,12 @@ const Home = () => {
           </div>
 
       </main>
+
+
     
+
+
+
 
     </div>
   );

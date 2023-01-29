@@ -11,9 +11,11 @@
     --image-change:none;
     --nav-color:#dfdfdf ;
     --color-h1: #000000 ;
-    --color-p:#666666;
-    --color-linkedin: rgb(65, 125, 255) ;
-
+    --color-p:#dddddd;
+    --color-linkedin: rgb(0, 64, 202) ;
+    --figures-on-color: url("https://i.pinimg.com/736x/ed/db/58/eddb58199250e1ea5faaf9a867b7265b.jpg"); 
+    --home-background-image: url("https://img.freepik.com/vector-premium/fondo-ancho-azul-claro-sala-estudio-pared-abstracta-puede-utilizar-presentar-su-producto-ilustracion-abstracta-fondos-pantalla-fondos-diapositivas-sitios-web_480270-86.jpg") ;
+    --size-figures: cover ;
 }
 
 
@@ -34,10 +36,14 @@ body.dark{
   --bs-white: rgb(8, 8, 8);
   --bs-dark: #ffffff;
   --image-change: contrast(95%) invert(90%);
-  --nav-color: #212529;
+  --nav-color: #0c0c0c;
   --color-h1:#ffffff;
   --color-p:#cacaca;
   --color-linkedin: rgb(32, 102, 253) ;
+  --figures-on-color: url("https://media4.giphy.com/media/39lWTXEdmp4qnZtHIK/giphy.gif");
+  --home-background-image: url("https://images8.alphacoders.com/890/890840.png") ;
+  --size-figures: "25rem" ;
+
   
 }
 
@@ -123,10 +129,10 @@ body.dark{
   padding-right: 0;
   padding-top: 25px;
   padding-bottom: 25px;
-  box-shadow: -3px -53px 102px 5px var(--bs-dark);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all ease 1s;
 }
 
 .container{
