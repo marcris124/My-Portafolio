@@ -1,13 +1,14 @@
 import React from 'react';
 import	mainImage from "./images/imageMain.jpg"
 import '../styles/Home.css'
+
 const Home = () => {
   return (
     <div className='home-container'>
       <main className='container-main'>
      <div  className='main-name'>
 
-        <div className='main-content'>
+        <div className='main-content bounce-in-top'>
           <h1>Hi, I'M  
             <br /> Martin Aguirre</h1>
             <p>
@@ -16,7 +17,7 @@ const Home = () => {
           
             </p>
           </div>
-          <div className='main-social'>
+          <div className='main-social bounce-in-top'>
   <ul>
         <li>
           
@@ -35,8 +36,8 @@ const Home = () => {
 
         </div>
           <div className='main-image'>
-            <div className='figure-1'></div>
-            <img src={mainImage} alt="" className='image' />
+            <div className='figure-1 '></div>
+            <img src={mainImage} alt="" className='slide-in-bottom   image  ' />
             <div className='figure-2'></div>
           </div>
 

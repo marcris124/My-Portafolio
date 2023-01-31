@@ -23,7 +23,7 @@ const Nav = () => {
       <div className='container'>
        <a href="#"><img src={imgName} alt="name"className='navImg'/></a> 
        <div className={btnHide ? 'navContent hide' : 'navContent' } >
-          <ul className='navList '>
+          <ul className='navList tracking-in-expand '>
             <li> <a href=""> Home </a> </li>
             <li> <a href=""> About Me </a> </li>
             <li> <a href=""> Proyects </a> </li>
