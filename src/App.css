@@ -18,7 +18,8 @@
     --size-figures: cover ;
     --technicals-background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/58/44/4457a2ce0e3e2f5.jpg");
     --skills-content: url("https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-digital-technology-blue-background-banner-image_298195.jpg") ;
-}
+
+  }
 
 
 /*RESETS*/
@@ -37,7 +38,7 @@ body.dark{
   --nav-color:rgba(0, 0, 0, 0.829);
   --bs-white: rgb(8, 8, 8);
   --bs-dark: #ffffff;
-  --image-change: contrast(95%) invert(90%);
+  --image-change: contrast(130%) invert(120%);
   --nav-color: #3f105f;
   --color-h1:#ffffff;
   --color-p:#ffffff;
@@ -46,7 +47,7 @@ body.dark{
   --home-background-image: url("https://images8.alphacoders.com/890/890840.png") ;
   --size-figures: "25rem" ;
   --technicals-background: url("https://images4.alphacoders.com/592/592367.jpg")   ;
-  --skills-content:  url("https://img.freepik.com/vector-premium/fondo-abstracto-purpura-oscuro-blanco-diseno-grafico_120819-1589.jpg?w=360") ;  
+  --skills-content:  url("https://www.xtrafondos.com/descargar.php?id=4465&resolucion=1280x720") ;  
 }
 
 
@@ -169,7 +170,7 @@ body.dark{
   gap: 1rem;
   list-style: none;  
   padding-right: 1rem;
-
+  text-align: center;
 }
 
 .navList li a{
@@ -209,7 +210,7 @@ body.dark{
 .navContent{
   position: absolute;
   left: 0;
-  top: 5rem;
+  top: 4.3rem;
   transition:1s ease all;
   
 }
@@ -217,7 +218,7 @@ body.dark{
 .navContent.hide{
   transition:1s ease all ;
   bottom: 5rem;
-  top: -10rem;
+  top: -12rem;
 
 
 }
@@ -225,6 +226,8 @@ body.dark{
 .navList{
   flex-direction: column;
   background:var(--nav-color);
+  gap: 2rem;
+  padding: 1rem;
 }
 /*BTN*/
 

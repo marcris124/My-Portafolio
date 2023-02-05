@@ -30,7 +30,6 @@
 .carrosel {
   -webkit-perspective: 250px;
   width:90%;
-
   border: 1px solid rgb(0, 0, 0);
   margin: 1rem;
   display: grid;
@@ -41,12 +40,19 @@
   background-color: whitesmoke;
   background-image:var( --skills-content );
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100rem;
   background-position: center;
-  padding: 4rem;
-  gap: 7rem;
-
+  gap: 2rem;
+  padding: 3rem;
+  transition: all ease 2s;
 }
+
+
+.carrosel:hover{
+  transition: all ease 2s;
+  background-size: 150rem;
+}
+
 
 .carrosel img{
   width: 50%;
@@ -127,9 +133,9 @@
   border: 4px solid rgb(255, 1, 1);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:925px) {
   .carrosel{
-    height: 30rem;
+    height: 25rem;
   }
 
   .caixa__card {
@@ -140,6 +146,12 @@
       -webkit-animation-duration: 8s;
       -webkit-animation-iteration-count: infinite;
       -webkit-animation-timing-function:cubic-bezier(0.34, 0.34, 0.57, 0.87);
+      font-size: 1rem;
   }
 
+  
+
 }
+
+
+
