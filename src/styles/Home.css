@@ -295,7 +295,8 @@
   background: linear-gradient(31deg,#ff0037 30%, #52a3ff 80%);
   opacity: 0;
   transition: 0.5s;
-
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
 }
 
 .main-social ul li:hover::before{
@@ -342,7 +343,7 @@
 .main-social ul li .titulo{
   color: #fff;
   font-size: 1.1em !important;
-  text-transform: uppercase;
+
   letter-spacing: 0.1em;
   transform: scale(0);
   transition: 0.5s;

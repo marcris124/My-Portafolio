@@ -9,13 +9,15 @@
     --bs-white:whitesmoke;
     --bs-dark: #212529;
     --image-change:none;
-    --nav-color:#dfdfdf ;
+    --nav-color:#ffffff ;
     --color-h1: #000000 ;
     --color-p:#dddddd;
     --color-linkedin: rgb(0, 64, 202) ;
-    --figures-on-color: url("https://i.pinimg.com/736x/ed/db/58/eddb58199250e1ea5faaf9a867b7265b.jpg"); 
+    --figures-on-color: url("https://img.freepik.com/foto-gratis/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular_1258-28311.jpg"); 
     --home-background-image: url("https://img.freepik.com/vector-premium/fondo-ancho-azul-claro-sala-estudio-pared-abstracta-puede-utilizar-presentar-su-producto-ilustracion-abstracta-fondos-pantalla-fondos-diapositivas-sitios-web_480270-86.jpg") ;
     --size-figures: cover ;
+    --technicals-background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/58/44/4457a2ce0e3e2f5.jpg");
+    --skills-content: url("https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-digital-technology-blue-background-banner-image_298195.jpg") ;
 }
 
 
@@ -38,13 +40,13 @@ body.dark{
   --image-change: contrast(95%) invert(90%);
   --nav-color: #3f105f;
   --color-h1:#ffffff;
-  --color-p:#cacaca;
+  --color-p:#ffffff;
   --color-linkedin: rgb(32, 102, 253) ;
   --figures-on-color: url("https://media4.giphy.com/media/39lWTXEdmp4qnZtHIK/giphy.gif");
   --home-background-image: url("https://images8.alphacoders.com/890/890840.png") ;
   --size-figures: "25rem" ;
-
-  
+  --technicals-background: url("https://images4.alphacoders.com/592/592367.jpg")   ;
+  --skills-content:  url("https://img.freepik.com/vector-premium/fondo-abstracto-purpura-oscuro-blanco-diseno-grafico_120819-1589.jpg?w=360") ;  
 }
 
 
