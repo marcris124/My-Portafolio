@@ -18,7 +18,7 @@
     --size-figures: cover ;
     --technicals-background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/58/44/4457a2ce0e3e2f5.jpg");
     --skills-content: url("https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-digital-technology-blue-background-banner-image_298195.jpg") ;
-
+    --proyect-skills-background: rgba(0, 81, 255, 0.534) ;
   }
 
 
@@ -48,6 +48,8 @@ body.dark{
   --size-figures: "25rem" ;
   --technicals-background: url("https://images4.alphacoders.com/592/592367.jpg")   ;
   --skills-content:  url("https://www.xtrafondos.com/descargar.php?id=4465&resolucion=1280x720") ;  
+  --proyect-skills-background: rgba(204, 0, 194, 0.404) ;
+
 }
 
 

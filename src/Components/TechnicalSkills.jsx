@@ -9,34 +9,34 @@ import gitLogo from '../Components/images/GitLogo.png'
 
 const TechnicalSkills = () => {
   return (
-    <div className='technical-container'>
+    <div id="particles-js" className='technical-container'>
       <h1>technical Skills</h1>
-      <div className="carrosel">
+      <div  className="carrosel">
             <div className="caixa__card cc__1">
               <img src={javaLogo} alt="JsLogo" />
               JavaScript
             </div>
             <div className="caixa__card cc__2">
-              <img src={htmlLogo} alt="" />
+              <img src={htmlLogo} alt="Html-logo" />
             </div>
             <div className="caixa__card cc__3">
-              <img src={cssLogo} alt="" />
+              <img src={cssLogo} alt="Css-logo" />
             </div>
             <div className="caixa__card cc__4">
-              <img src={reactLogo} alt="" />
+              <img src={reactLogo} alt="Reack-logo" />
             </div>
 
             <div className="caixa__card cc__5">
-              <img src={bootstrapLogo} alt="reactLogo"/>
+              <img src={bootstrapLogo} alt="Boostrap-Logo"/>
               Boostrap
             </div>
             <div className="caixa__card cc__6">
-              <img src={gitLogo} alt="" />
+              <img src={gitLogo} alt="Git-logo" />
               Git
             </div>
   
         </div>
-
+      
     </div>
   );
 };

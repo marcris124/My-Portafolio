@@ -343,7 +343,6 @@
 .main-social ul li .titulo{
   color: #fff;
   font-size: 1.1em !important;
-
   letter-spacing: 0.1em;
   transform: scale(0);
   transition: 0.5s;
