@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-abstracto-azul_1393-339.jpg?auto=format&h=200");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.footer-container{
+
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  z-index: 2;
+  align-items: center;
+}
+
+.info-footer{
+  margin: 0.5rem;
+  z-index: 3;
+  display: flex;
+  font-family: 'Work Sans', sans-serif;
+  align-items: center;
+  gap: 0.5rem;
+  color: whitesmoke;
+}
+
+.info-footer i{
+    font-size: 2.5rem;
+}
+
+.info-footer p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  z-index: 2;
+}
+
+.info-footer a{
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.green{
+  color: rgb(30, 255, 0);
+
+}
+
+.red{
+  color: red;
+}
+
+.copy-right{
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+@media screen and (max-width:600px) {
+
+  .footer-container{
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .copy-right{
+    margin: 1rem;
+
+  }
+}

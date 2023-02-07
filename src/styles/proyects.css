@@ -7,13 +7,12 @@
 
 
 .proyects-container{
-  border: 3px solid green;
   width: 100%;
   display: flex;
   justify-content: center; 
   align-items: center;
   flex-direction: column;
-  background-image: url("https://img.freepik.com/foto-gratis/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular_1258-28311.jpg");
+  background-image: var(--proyects-background);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +28,6 @@
 }
 
 .content-proyects{
-  border: 3px solid rgb(0, 255, 242);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -38,11 +36,8 @@
   width: 90%;
   padding: 2rem;
   margin: 1rem;
-  background-image: url("https://img.lovepik.com/background/20211020/large/lovepik-blue-background-of-science-and-technology-image_400062237.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 1rem;
+  z-index: 1;
 }
 
 
@@ -59,7 +54,7 @@
   border-radius: 1rem;
   cursor: pointer;
   box-shadow: 0 10px 25px rgba(0, 0, 0,0.1);
-
+  border: 1px solid whitesmoke;
 }
 
 
@@ -92,7 +87,7 @@
   text-decoration: none;
 }
 
-.titulo{
+.proyects-inf{
   
   background: var(--proyect-skills-background);
   color: #fff;
@@ -110,7 +105,7 @@
   text-align: center;
 }
 
-.proyects:hover .titulo{
+.proyects:hover .proyects-inf{
   transform: scale(1);
   transition-delay: 0.25s;
   font-weight: 700;
@@ -120,24 +115,24 @@
 
 /*CONTENT*/
 
-.titulo h2{
+.proyects-inf h2{
   font-size: 2.5rem;
   font-family: 'Poppins', sans-serif;
 }
 
-.titulo p{
+.proyects-inf p{
   font-family: 'Work Sans', sans-serif;
   text-align: center;
 }
 
-.titulo a{
+.proyects-inf a{
   text-decoration: none;
   border: 1px solid whitesmoke;
   padding: 1rem;
   color: whitesmoke;
 }
 
-.titulo a:hover{
+.proyects-inf a:hover{
   background-color: white ;
   color: black;
 }
@@ -206,7 +201,7 @@ border: 2px solid blue;
     gap: 0;
   }
 
-  .titulo h2{
+  .proyects-inf h2{
     font-size: 1.5rem;
   }
 

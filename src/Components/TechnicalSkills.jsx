@@ -6,10 +6,13 @@ import htmlLogo from '../Components/images/HTMLogo.png'
 import cssLogo from '../Components/images/CSSLogo.png'
 import bootstrapLogo from '../Components/images/boostrapLogo.png'
 import gitLogo from '../Components/images/GitLogo.png'
+import Particle from '../Components/Particle'
+
 
 const TechnicalSkills = () => {
   return (
-    <div id="particles-js" className='technical-container'>
+    <div id='skills'  className='technical-container'>
+      <Particle/>
       <h1>technical Skills</h1>
       <div  className="carrosel">
             <div className="caixa__card cc__1">

@@ -1,6 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import imgName from "../Components/images/name.png"
 const Nav = () => {
+
+  const [navSize, setnavSize] = useState("5rem");
+  const [navColor, setnavColor] = useState("transparent");
+  const listenScrollEvent = () => {
+    window.scrollY > 10 ? setnavColor("white") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavSize("5rem") : setnavSize("5rem");
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
+
+
+
 
   const [btnChange,setbtnChange] = useState(false)
     
@@ -19,14 +35,19 @@ const Nav = () => {
 
 
   return (
-    <nav className='navbar'>
+    <nav className='navbar'
+      style={{backgroundColor:navColor,
+                height:navSize,
+                transition:"all 1s"    
+              }}
+    >
       <div className='container'>
        <a href="#"><img src={imgName} alt="name"className='navImg'/></a> 
        <div className={btnHide ? 'navContent hide' : 'navContent' } >
           <ul className='navList tracking-in-expand '>
-            <li> <a href=""> Home </a> </li>
-            <li> <a href=""> About Me </a> </li>
-            <li> <a href=""> Proyects </a> </li>
+            <li> <a href="#"> Home </a> </li>
+            <li> <a href="#skills"> Skills </a> </li>
+            <li> <a href="#proyects"> Proyects </a> </li>
             <li> <a href=""> Contact Me </a> </li>
           </ul>
         
