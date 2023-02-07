@@ -38,7 +38,9 @@ const Nav = () => {
     <nav className='navbar'
       style={{backgroundColor:navColor,
                 height:navSize,
-                transition:"all 1s"    
+                transition:"all 1s" ,
+                color:navColor   
+                
               }}
     >
       <div className='container'>
