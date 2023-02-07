@@ -13,7 +13,7 @@ const Home = () => {
               <br /> Martin Aguirre</h1>
             <p>
 
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deleniti facere aut cupiditate nisi? Rerum alias nemo cum itaque iste error optio ratione sed. Sapiente autem harum culpa veritatis expedita.
+            I am a Full Stack web developer focused on the front-end development of web applications and platforms, in which I am always willing to improve my skills, creating projects, facing challenges and with the motivation to continue learning.
 
             </p>
           </div>
