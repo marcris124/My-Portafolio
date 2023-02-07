@@ -259,7 +259,7 @@ body.dark{
   position:unset;
   width: 2rem;
   font-size: 25px;
-  background:var(--nav-color);
+  background:transparent;
   border-style: none;
   color:var(--bs-dark);
 }
