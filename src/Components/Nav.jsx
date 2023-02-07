@@ -5,7 +5,7 @@ const Nav = () => {
   const [navSize, setnavSize] = useState("5rem");
   const [navColor, setnavColor] = useState("transparent");
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setnavColor("white") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavColor("var(--nav-color)") : setnavColor("transparent");
     window.scrollY > 10 ? setnavSize("5rem") : setnavSize("5rem");
   };
   useEffect(() => {
