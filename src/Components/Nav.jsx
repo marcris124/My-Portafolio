@@ -50,7 +50,7 @@ const Nav = () => {
             <li> <a href="#"> Home </a> </li>
             <li> <a href="#skills"> Skills </a> </li>
             <li> <a href="#proyects"> Proyects </a> </li>
-            <li> <a href=""> Contact Me </a> </li>
+            <li> <a href="#contact-me"> Contact Me </a> </li>
           </ul>
         
         </div>

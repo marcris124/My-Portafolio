@@ -7,6 +7,7 @@ import Nav from './Components/Nav'
 import TechnicalSkills from './Components/TechnicalSkills'
 import Proyects from './Components/Proyects'
 import Footer from './Components/Footer'
+import ContactMe from './Components/ContactMe'
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       <Home/>
       <TechnicalSkills/>
       <Proyects/>
+      <ContactMe/>
+
+
       <Footer/>
 
     </div>

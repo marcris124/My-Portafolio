@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contactForm-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("https://img.freepik.com/vetores-premium/degrade-de-fundo-azul_23-2149333639.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactForm-container h1 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.form-content {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  margin: 2rem;
+  color: whitesmoke;
+}
+
+.form-content form {
+  border-radius: 1rem;
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.input-contetn {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-contetn label {
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.input-contetn input {
+  width: 90%;
+  position: relative;
+  z-index: 3;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  font-family: 'Inter', sans-serif;
+  height: 4rem;
+}
+
+.input-contetn textarea {
+  width: 90%;
+  position: relative;
+  z-index: 3;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  font-family: 'Inter', sans-serif;
+  height: 6rem;
+}
+
+.btn-Form {
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.btn-Form:hover {
+  background-color: rgb(0, 89, 255);
+  color: aliceblue;
+
+}
+
+.img-contact-me {
+  width: 70%;
+}
+
+.img-contact-me img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width:600px) {
+
+  .form-content {
+    width: 100%;
+  }
+
+  .form-content form {
+    width: 100%;
+    align-items: center;
+  }
+
+  .input-contetn textarea {
+    width: 100%;
+  }
+
+  .input-contetn {
+    align-items: center;
+  }
+
+  .img-contact-me {
+    display: none;
+  }
+
+
+}
