@@ -16,7 +16,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
+  transition: all ease 1s;
 }
 
 .proyects-container h1{

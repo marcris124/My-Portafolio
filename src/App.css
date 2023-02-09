@@ -8,8 +8,8 @@
     --bs-black: #000;
     --bs-white:whitesmoke;
     --bs-dark: #212529;
-    --image-change:none;
-    --nav-color:#ffffff ;
+    --image-change:contrast(130%) invert(120%);
+    --nav-color:#008cff ;
     --color-h1: #000000 ;
     --color-p:#fffdfd;
     --color-linkedin: rgb(0, 64, 202) ;
@@ -50,9 +50,9 @@ body.dark{
   --home-background-image: url("https://images8.alphacoders.com/890/890840.png") ;
   --size-figures: "25rem" ;
   --technicals-background: url("https://images4.alphacoders.com/592/592367.jpg")   ;
-  --skills-content:  url("https://www.xtrafondos.com/descargar.php?id=4465&resolucion=1280x720") ;  
+  --skills-content:  url("https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-simple-technology-business-line-image_22764.jpg") ;  
   --proyect-skills-background: rgba(146, 3, 182, 0.678) ;
-    --proyects-background:url("https://fondosmil.com/fondo/28258.jpg");
+    --proyects-background:url("https://img.freepik.com/vector-premium/fondo-degradado-forma-abstracta-diseno-color-azul-morado_288411-500.jpg");
 
 
 }
@@ -188,7 +188,7 @@ body.dark{
   font-family: 'Inter', sans-serif;
   text-decoration: none;
   font-weight: 700;
-  color: var(--bs-dark);
+  color: whitesmoke;
 }
 
 .navList li a:hover{
