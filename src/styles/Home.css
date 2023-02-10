@@ -258,9 +258,13 @@
 /* Styles hubs */
 .main-social ul{
   position: relative;
-  display:flex;
-  gap: 6rem;
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   font-family: 'Work Sans', sans-serif;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 
 }
 
@@ -312,7 +316,7 @@
   width: 100%;
   height: 100%;
   border-radius: 60px;
-  background: linear-gradient(31deg,#00ff2f 30%, #00fff6 80%);
+  background: linear-gradient(31deg,#1900ff 30%, #00fff6 80%);
   opacity: 0;
   transition: 0.5s;
   z-index: -1;
