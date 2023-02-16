@@ -32,6 +32,12 @@
     
 } 
 
+html{
+  scroll-behavior: smooth;
+
+}
+
+
 body{
   background:var(--bs-white);
   transition: .5s ease all;
