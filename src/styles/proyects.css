@@ -48,7 +48,7 @@
 
  .proyects{
   width: 45%;
-  height: 20rem;
+  height: 23rem;
   position: relative;
   list-style: none;
   border-radius: 1rem;
@@ -75,6 +75,7 @@
   transition-delay: 0.25s;
   border-radius:1rem ; 
   position: absolute;
+  object-fit: cover;
 }
 
 .proyects:hover .img-proyect{
@@ -101,7 +102,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 20rem;
+  height: 23rem;
   text-align: center;
 }
 
@@ -130,6 +131,7 @@
   border: 1px solid whitesmoke;
   padding: 1rem;
   color: whitesmoke;
+  border-radius: 0.5rem;
 }
 
 .proyects-inf a:hover{
@@ -188,9 +190,13 @@ border: 2px solid blue;
     padding: 1rem;
   }
 
+  .proyects-inf{
+    height: 15rem;
+  }
+
   .proyects{
     width: 100%;
-    height: 20.3rem;
+    height: 15rem;
   }
   .proyects:hover{
     width: 100%;
@@ -198,12 +204,27 @@ border: 2px solid blue;
   }
   .proyect-skills{
     width: 100%;
-    gap: 0;
+    gap: 0.5rem
   }
+
+  .img-skils-Pro{
+    width: 5rem;
+    height: 5rem;
+  }
+
 
   .proyects-inf h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
+  .proyects-inf p{
+    font-size: 0.9rem;
+  }
+
+
+  .proyects-inf a {
+    padding: 0.6rem;
+
+  }
 
 }

@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url("https://img.freepik.com/vetores-premium/degrade-de-fundo-azul_23-2149333639.jpg");
+  background-image: var(--contact-me-background);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,6 +48,7 @@
 }
 
 .input-contetn {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -121,13 +122,13 @@
     width: 100%;
   }
 
-  .input-contetn {
-    align-items: center;
-  }
-
+ 
   .img-contact-me {
     display: none;
   }
 
+  .input-contetn label{
+    font-size: 2rem;
+  }
 
 }

@@ -111,6 +111,7 @@
   background: #428bca;
   transform: skew(-10deg,0deg);
   transition: all ease 0.90s;
+  border-radius: 0.5rem;
 }
 
 .image:hover{
@@ -168,6 +169,15 @@
   justify-items: center;
  
 }
+
+.main-content h1{
+  font-size: 65px;
+}
+
+.main-content p {
+  margin: 2rem;
+}
+
 
 .image{
   

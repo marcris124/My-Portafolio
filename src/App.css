@@ -13,15 +13,15 @@
     --color-h1: #000000 ;
     --color-p:#fffdfd;
     --color-linkedin: rgb(0, 64, 202) ;
-    --figures-on-color: url("https://img.freepik.com/foto-gratis/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular_1258-28311.jpg"); 
+    --figures-on-color: url("https://cdn.dribbble.com/users/1595839/screenshots/11700339/media/5b39c07a6a721b6b440288c6c6ec5cb1.gif"); 
     --home-background-image: url("https://img.freepik.com/vector-premium/fondo-ancho-azul-claro-sala-estudio-pared-abstracta-puede-utilizar-presentar-su-producto-ilustracion-abstracta-fondos-pantalla-fondos-diapositivas-sitios-web_480270-86.jpg") ;
     --size-figures: cover ;
     --technicals-background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/58/44/4457a2ce0e3e2f5.jpg");
     --skills-content: url("https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-digital-technology-blue-background-banner-image_298195.jpg") ;
     --proyect-skills-background: rgba(0, 81, 255, 0.534) ;
     --proyects-background:url("data:image/jpeg;base64,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");
-    
-  }
+    --contact-me-background: url("https://cdnb.artstation.com/p/assets/images/images/020/954/119/original/alexey-kurbatov-hexagon-floor-1.gif?1569829764") ;
+}
 
 
 /*RESETS*/
@@ -59,7 +59,7 @@ body.dark{
   --skills-content:  url("https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-simple-technology-business-line-image_22764.jpg") ;  
   --proyect-skills-background: rgba(146, 3, 182, 0.678) ;
     --proyects-background:url("https://img.freepik.com/vector-premium/fondo-degradado-forma-abstracta-diseno-color-azul-morado_288411-500.jpg");
-
+    --contact-me-background: url("https://cdn.dribbble.com/users/1595839/screenshots/11700339/media/5b39c07a6a721b6b440288c6c6ec5cb1.gif") ;
 
 }
 
@@ -235,7 +235,7 @@ body.dark{
 .navContent.hide{
   transition:1s ease all ;
   bottom: 5rem;
-  top: -12rem;
+  top: -15rem;
 
 
 }
