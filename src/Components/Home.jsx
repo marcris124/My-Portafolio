@@ -21,13 +21,13 @@ const Home = () => {
             <ul>
               <li>
 
-                <a target={"_blank"} href="https://www.linkedin.com/in/martin-santiago-38b201244/" className='icon '> <i className="fa-brands fa-linkedin blue"></i> </a>
+                <a target={"_blank"} href="https://www.linkedin.com/in/martin-santiago-38b201244/" className='icon-home '> <i className="fa-brands fa-linkedin blue"></i> </a>
                 <a target={"_blank"} href="https://www.linkedin.com/in/martin-santiago-38b201244/" className='titulo'>Linkedin</a>
 
               </li>
 
               <li>
-                <a target={"_blank"} href="https://github.com/marcris124" className='icon' style={{ color: "black" }}> <i className="fa-brands fa-square-github white"></i></a>
+                <a target={"_blank"} href="https://github.com/marcris124" className='icon-home' style={{ color: "black" }}> <i className="fa-brands fa-square-github white"></i></a>
                 <a target={"_blank"} href="https://github.com/marcris124" className='titulo'>GitHub</a>
 
               </li>

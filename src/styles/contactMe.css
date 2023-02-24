@@ -16,6 +16,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all ease 1s;
 }
 
 .contactForm-container h1 {
