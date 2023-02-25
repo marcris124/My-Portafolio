@@ -6,7 +6,6 @@
 
 .contactForm-container {
   position: relative;
-  z-index: 2;
   width: 100%;
   display: flex;
   align-items: center;
@@ -24,6 +23,8 @@
   margin-top: 2rem;
   color: whitesmoke;
   font-family: 'Poppins', sans-serif;
+  border-bottom:2px solid whitesmoke;
+  
 }
 
 
@@ -41,7 +42,7 @@
 .form-content form {
   border-radius: 1rem;
   width: 60%;
-
+  z-index: 2;
   display: flex;
   flex-direction: column;
   gap: 2rem;

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/contactMe.css'
 import emailjs from 'emailjs-com'
-import contactMeImg from '../Components/images/contactMeIMG.jpeg'
+import contactMeImg from '../Components/images/contactMeIMG.png'
 
 const ContactMe = () => {
 
