@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import imgName from "../Components/images/name.png"
+import imgName from "../Components/images/name.webp"
 const Nav = () => {
 
   const [navSize, setnavSize] = useState("5rem");

@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/Technicals.css'
-import reactLogo from '../Components/images/reactLogo.png'
-import javaLogo from '../Components/images/javaLogo.png'
-import htmlLogo from '../Components/images/HTMLogo.png'
-import cssLogo from '../Components/images/CSSLogo.png'
-import bootstrapLogo from '../Components/images/boostrapLogo.png'
-import gitLogo from '../Components/images/GitLogo.png'
+import reactLogo from '../Components/images/reactLogo.webp'
+import javaLogo from '../Components/images/javaLogo.webp'
+import htmlLogo from '../Components/images/HTMLogo.webp'
+import cssLogo from '../Components/images/CSSLogo.webp'
+import bootstrapLogo from '../Components/images/boostrapLogo.webp'
+import gitLogo from '../Components/images/GitLogo.webp'
 import Particle from '../Components/Particle'
 
 

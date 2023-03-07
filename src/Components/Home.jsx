@@ -1,5 +1,5 @@
 import React from 'react';
-import mainImage from "./images/imageMain.jpg"
+import mainImage from "./images/imageMain.webp"
 import '../styles/Home.css'
 
 const Home = () => {

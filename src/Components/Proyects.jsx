@@ -4,11 +4,10 @@ import pokedex from '../Components/images/pokedex.webp'
 import ecomerce from '../Components/images/Ecomerce.webp'
 import ApiRandM from '../Components/images/ApiRickAndMorty.webp'
 import climApp from '../Components/images/ClimApp.webp'
-import reactLogo from '../Components/images/reactLogo2.png'
-import javaLogo from '../Components/images/javaLogo.png'
-import htmlLogo from '../Components/images/HTMLogo2.png'
-import cssLogo from '../Components/images/CSSLogo2.png'
-import bootstrapLogo from '../Components/images/boostrapLogo.png'
+import reactLogo from '../Components/images/reactLogo2.webp'
+import javaLogo from '../Components/images/javaLogo.webp'
+import htmlLogo from '../Components/images/HTMLogo2.webp'
+import cssLogo from '../Components/images/CSSLogo2.webp'
 
 const Proyects = () => {
   return (
