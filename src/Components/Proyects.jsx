@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/proyects.css'
-import pokedex from '../Components/images/pokedex.jpeg'
-import ecomerce from '../Components/images/Ecomerce.jpeg'
-import ApiRandM from '../Components/images/ApiRickAndMorty.jpeg'
-import climApp from '../Components/images/ClimApp.jpeg'
+import pokedex from '../Components/images/pokedex.webp'
+import ecomerce from '../Components/images/Ecomerce.webp'
+import ApiRandM from '../Components/images/ApiRickAndMorty.webp'
+import climApp from '../Components/images/ClimApp.webp'
 import reactLogo from '../Components/images/reactLogo2.png'
 import javaLogo from '../Components/images/javaLogo.png'
 import htmlLogo from '../Components/images/HTMLogo2.png'

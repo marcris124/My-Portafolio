@@ -13,9 +13,9 @@
     --color-h1: #000000 ;
     --color-p:#fffdfd;
     --color-linkedin: rgb(0, 64, 202) ;
-    --figures-on-color: url("https://i.pinimg.com/736x/d1/96/d8/d196d834815abde442d1048d9b998e4c.jpg"); 
+    --figures-on-color: url("./Components/images/figrues-image-off.webp"); 
     /* --home-background-image: url("https://img.freepik.com/vector-premium/fondo-ancho-azul-claro-sala-estudio-pared-abstracta-puede-utilizar-presentar-su-producto-ilustracion-abstracta-fondos-pantalla-fondos-diapositivas-sitios-web_480270-86.jpg") ; */
-    --home-background-image: url("./Components/images/Dark-Off.png") ;
+    --home-background-image: url("./Components/images/Dark-Off.webp") ;
     --size-figures: cover ;
     --technicals-background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/58/44/4457a2ce0e3e2f5.jpg");
     --skills-content: url("https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-digital-technology-blue-background-banner-image_298195.jpg") ;
@@ -55,7 +55,7 @@ body.dark{
   --color-linkedin: rgb(32, 102, 253) ;
   --figures-on-color: url("https://media4.giphy.com/media/39lWTXEdmp4qnZtHIK/giphy.gif");
   /* --home-background-image: url("https://images8.alphacoders.com/890/890840.png") ; */
-  --home-background-image: url("./Components/images/Dark-on.png") ;
+  --home-background-image: url("./Components/images/Dark-on.webp") ;
   --size-figures: "25rem" ;
   --technicals-background: url("https://images4.alphacoders.com/592/592367.jpg");
   --skills-content:  url("https://images4.alphacoders.com/592/592367.jpg") ;  
