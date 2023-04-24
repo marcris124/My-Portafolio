@@ -6,6 +6,7 @@ import htmlLogo from '../Components/images/HTMLogo.webp'
 import cssLogo from '../Components/images/CSSLogo.webp'
 import bootstrapLogo from '../Components/images/boostrapLogo.webp'
 import gitLogo from '../Components/images/GitLogo.webp'
+
 import Particle from '../Components/Particle'
 
 
@@ -19,22 +20,27 @@ const TechnicalSkills = () => {
           <li style={{"--color":"#ef436b"}}>
             <span className='base'></span>
             <span className='title'><span className='white'> HTML5</span> </span>
-            <span className='icon'> <i className="fa-brands fa-html5"></i> </span>
+            <span className='icon'> <i className="fa-brands fa-html5 fa-bounce"></i> </span>
           </li>
           <li style={{"--color":"#0673ff"}} >
             <span className='base'></span>
             <span className='title'> <span className='white'>CSS</span>  </span>
-            <span className='icon'><i className="fa-brands fa-css3-alt"></i></span>
+            <span className='icon'><i className="fa-brands fa-css3-alt fa-bounce"></i></span>
           </li>
           <li style={{"--color":"#ffe519"}} >
             <span className='base'></span>
             <span className='title'> <span className='white'>JavaScript</span> </span>
-            <span className='icon'><i className="fa-brands fa-js"></i></span>
+            <span className='icon'><i className="fa-brands fa-square-js fa-bounce"></i></span>
           </li>
           <li style={{"--color":"#00e2ef"}} >
             <span className='base'></span>
             <span className='title'><span className='white'> React</span>  </span>
-            <span className='icon'><i className="fa-brands fa-react"></i></span>
+            <span className='icon'><i className="fa-brands fa-react fa-bounce"></i></span>
+          </li>
+          <li style={{"--color":"lime"}}>
+            <span className='base'></span>
+            <span className='title'><span className='white'> NODE Js</span> </span>
+            <span className='icon'><i className ="fa-brands fa-node fa-bounce"></i> </span>
           </li>
         </ul>
       </div>

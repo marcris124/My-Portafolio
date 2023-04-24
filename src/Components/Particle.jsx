@@ -32,7 +32,7 @@ const Particle = () => {
       },
       "particles": {
         "number": {
-          "value": 25,
+          "value": 18,
           "density": {
             "enable": true,
             "value_area": 552.4033491425909
@@ -85,7 +85,7 @@ const Particle = () => {
         },
         "move": {
           "enable": true,
-          "speed": 2,
+          "speed": 2.5,
           "direction": "none",
           "random": true,
           "straight": true,
